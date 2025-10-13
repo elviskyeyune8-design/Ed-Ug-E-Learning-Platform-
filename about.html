@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Ed-Ug</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background-color: #001f3f;
+      padding: 1rem 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    nav strong {
+      font-size: 1.5rem;
+      color: #fff;
+      margin-right: auto;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #003d7a;
+    }
+
+    .video-container {
+      width: 100%;
+      height: 400px;
+      overflow: hidden;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 20px;
+    }
+
+    .text {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #f4f4f4;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+    }
+
+    .text h1 {
+      color: #001f3f;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .text p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background-color: #fff;
+      border-left: 4px solid #001f3f;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      color: #001f3f;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      color: #555;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    section img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 8px;
+      margin: 1rem 0;
+      display: block;
+    }
+
+    ul {
+      list-style-position: inside;
+      margin-top: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 1rem;
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    ul li strong {
+      color: #001f3f;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: #fff;
+      padding: 2rem 20px;
+      text-align: center;
+    }
+
+    footer h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>Ed-Ug</strong>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <div class="video-container">
+    <video autoplay muted loop playsinline>
+      <source src="3209298-uhd_3840_2160_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <main>
+    <section class="text">
+      <h1>About Ed-Ug</h1>
+      <p>Transforming secondary education in Uganda</p>
+    </section>
+
+    <section>
+      <h2>Our Mission</h2>
+      <p>Ed-Ug provides quality education for all Ugandan secondary school students. We believe every student deserves access to excellent learning resources.</p>
+    </section>
+
+    <section class="text">
+      <h2>Our Story</h2>
+      <img src="students-learning.jpg" alt="Students learning">
+      <p>Founded in 2023, Ed-Ug was created by Ugandan educators to bridge the education gap through e-learning.</p>
+    </section>
+
+    <section>
+      <h2>Our Values</h2>
+      <ul>
+        <li><strong>Quality Education:</strong> High-quality content that meets standards.</li>
+        <li><strong>Accessibility:</strong> Education available to everyone across Uganda.</li>
+        <li><strong>Innovation:</strong> Using technology to enhance learning.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <h3>Ed-Ug E-Learning Platform</h3>
+    <p>Empowering Ugandan students</p>
+    <p>
+      <a href="https://facebook.com/edug" target="_blank">Facebook</a> |
+      <a href="https://twitter.com/edug" target="_blank">Twitter</a> |
+      <a href="https://instagram.com/edug" target="_blank">Instagram</a>
+    </p>
+    <p>Email: <a href="mailto:info@ed-ug.com">info@ed-ug.com</a></p>
+    <p>Phone: <a href="tel:+256700123456">+256 700 123 456</a></p>
+    <p>&copy; 2025 Ed-Ug. All rights reserved.</p>
+  </footer>
+</body>
+</html>

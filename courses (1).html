@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses | Ed-Ug</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #001f3f;
+      padding: 1rem 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    nav strong {
+      font-size: 1.5rem;
+      color: #fff;
+      margin-right: auto;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #003d7a;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 20px;
+    }
+
+    .page-header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #fff;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .page-header h1 {
+      color: #001f3f;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .page-header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .courses-section h2 {
+      color: #001f3f;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .course-card {
+      background-color: #fff;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-left: 5px solid #001f3f;
+    }
+
+    .course-card h3 {
+      color: #001f3f;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .course-card img {
+      width: 100%;
+      max-width: 500px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin: 1rem 0;
+      display: block;
+    }
+
+    .course-card p {
+      color: #666;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: #fff;
+      padding: 2rem 20px;
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    footer h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>Ed-Ug</strong>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>All Courses</h1>
+      <p>Curriculum for S.1 to S.6 students</p>
+    </section>
+
+    <section class="courses-section">
+      <h2>Available Courses</h2>
+      
+      <div class="course-card">
+        <h3>Mathematics</h3>
+        <img src="math-course.jpg" alt="Mathematics">
+        <p>Algebra, geometry, and calculus.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>English Language</h3>
+        <img src="english-course.jpg" alt="English">
+        <p>Reading, grammar, and composition.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Biology</h3>
+        <img src="biology-course.jpg" alt="Biology">
+        <p>Cell biology and ecology.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Physics</h3>
+        <img src="physics-course.jpg" alt="Physics">
+        <p>Mechanics and electricity.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h3>Ed-Ug E-Learning Platform</h3>
+    <p>Empowering Ugandan students</p>
+    <p>
+      <a href="https://facebook.com/edug" target="_blank">Facebook</a> |
+      <a href="https://twitter.com/edug" target="_blank">Twitter</a> |
+      <a href="https://instagram.com/edug" target="_blank">Instagram</a>
+    </p>
+    <p>Email: <a href="mailto:info@ed-ug.com">info@ed-ug.com</a></p>
+    <p>Phone: <a href="tel:+256700123456">+256 700 123 456</a></p>
+    <p>&copy; 2025 Ed-Ug. All rights reserved.</p>
+  </footer>
+</body>
+</html>

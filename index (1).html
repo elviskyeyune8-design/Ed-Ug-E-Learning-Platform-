@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ed-Ug | E-Learning Platform</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background-color: #001f3f;
+      padding: 1rem 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    nav strong {
+      font-size: 1.5rem;
+      color: #fff;
+      margin-right: auto;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #003d7a;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 20px;
+    }
+
+    .text {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #f4f4f4;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+    }
+
+    .text h1 {
+      color: #001f3f;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .text p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    .text a {
+      display: inline-block;
+      background-color: #001f3f;
+      color: #fff;
+      padding: 0.8rem 2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .text a:hover {
+      background-color: #003d7a;
+    }
+
+    .courses h2 {
+      color: #001f3f;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+.courses {
+  display: grid;
+  grid-template-columns: 1fr; /* One full-width column */
+  gap: 1.5rem; /* Space between course cards */
+  width: 100%;
+}
+
+.courses > div {
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%; /* Ensure it takes full width of the grid cell */
+  box-sizing: border-box;
+}
+
+    .courses h3 {
+      color: #001f3f;
+      margin-bottom: 1rem;
+    }
+
+    .courses img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    .courses p {
+      color: #666;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      color: #001f3f;
+      margin-bottom: 1rem;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: #fff;
+      padding: 2rem 20px;
+      text-align: center;
+    }
+
+    footer h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>Ed-Ug</strong>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <img src="IMG-20251006-WA0011.jpg" alt="Ed-Ug Learning" class="hero-image">
+
+  <main>
+    <section class="text">
+      <h1>Ed-Ug E-Learning Platform</h1>
+      <p>Quality education for Ugandan secondary students (S.1 to S.6)</p>
+      <a href="courses.html">View Courses</a>
+    </section>
+
+    <section class="courses">
+      <h2>Popular Courses</h2>
+      <div>
+        <h3>Mathematics</h3>
+        <img src="math-course.jpg" alt="Mathematics">
+        <p>Algebra, geometry, and calculus.</p>
+      </div>
+      <div>
+        <h3>Biology</h3>
+        <img src="biology-course.jpg" alt="Biology">
+        <p>Life sciences and ecology.</p>
+      </div>
+      <div>
+        <h3>English</h3>
+        <img src="english-course.jpg" alt="English">
+        <p>Reading and writing skills.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Student Testimonial Audio</h2>
+      <audio controls>
+        <source src="placeholder-audio.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+      </audio>
+    </section>
+  </main>
+
+  <footer>
+    <h3>Ed-Ug E-Learning Platform</h3>
+    <p>Empowering Ugandan students</p>
+    <p>
+      <a href="https://facebook.com/edug" target="_blank">Facebook</a> |
+      <a href="https://twitter.com/edug" target="_blank">Twitter</a> |
+      <a href="https://instagram.com/edug" target="_blank">Instagram</a>
+    </p>
+    <p>Email: <a href="mailto:info@ed-ug.com">info@ed-ug.com</a></p>
+    <p>Phone: <a href="tel:+256700123456">+256 700 123 456</a></p>
+    <p>&copy; 2025 Ed-Ug. All rights reserved.</p>
+  </footer>
+</body>
+</html>
